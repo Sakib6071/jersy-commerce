@@ -13,19 +13,19 @@
 </head>
 <body class="bg-light">
 <header>
-  <div class="bg-dark">
+  <div class="bg-dark fixed-top bg-dark">
     <div class="w-75 mx-auto">
         <nav class="navbar navbar-expand-lg navbar-light text-white">
             <div class="container-fluid">
-              <a class="navbar-brand text-white" href="#">The Jersey World BD</a>
+              <a class="navbar-brand text-white" href="#home">The Jersey World BD</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav text-white">
-                  <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                  <a class="nav-link text-white" href="#">Product</a>
-                  <a class="nav-link text-white" href="#">Contact</a>
+                  <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link text-white" href="#product">Product</a>
+                  <a class="nav-link text-white" href="#contact">Contact</a>
                 </div>
               </div>
             </div>
@@ -33,7 +33,7 @@
       </div>
 </div>
 <div class="bg-light">
-    <div>
+    <div id="home">
 
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
@@ -44,7 +44,7 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="resources/photos/banner.jpg" class="d-block w-100" alt="argentina">
+              <img src="resources/photos/banner2.jpg" class="d-block w-100" alt="argentina">
               <div class="carousel-caption d-none d-md-block">
 
 
@@ -91,7 +91,8 @@
 </div>
 </header>
 <main>
-  <div class="shop mt-5">
+  <div id="product" class="shop">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 195"><path fill="#273036" fill-opacity="1" d="M0,192L60,170.7C120,149,240,107,360,80C480,53,600,43,720,53.3C840,64,960,96,1080,96C1200,96,1320,64,1380,48L1440,32L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
     <h2 class="text-center fw-bold mb-4">Collect Your Jersey</h2>
     <div class="product-container container">
 
@@ -250,8 +251,29 @@
 
 
     </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 91 1440 230"><path fill="#273036" fill-opacity="1" d="M0,320L60,298.7C120,277,240,235,360,229.3C480,224,600,256,720,261.3C840,267,960,245,1080,229.3C1200,213,1320,203,1380,197.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
   </div>
+<div id="contact" class="pt-5">
+  <h2 class="text-center fw-bold mb-4">Contact With Us</h2>
+<div class="container ">
+  <div class="row">
+    <div class="col">
+      <div class="container">
+        <div class="row">
+          <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div class="row">
 
+        </div>
+        <div class="row">
+
+        </div>
+      </div>
+    </div>
+    <div class="col"><img class="d-block w-100" style="border-radius: 61% 39% 47% 53% / 34% 27% 73% 66% ;" src="resources/photos/contact.jpg" alt="contact"></div>
+  </div>
+</div>
+</div>
 
 
 
@@ -267,7 +289,8 @@
 
 
 
-
+  <!-- Font-awesome cdn -->
+  <script src="https://kit.fontawesome.com/7e13c279c3.js" crossorigin="anonymous"></script>
     <!-- bootstrap cdn -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- JS link -->
