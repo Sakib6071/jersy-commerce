@@ -10,3 +10,10 @@
 #contact{
     background: rgba(168, 238, 199, 0.406);
 }
+.fontawesome{
+    width: 40px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
